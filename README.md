@@ -72,9 +72,9 @@ java main.Main
 
 ```
 Enter option: 1
-Student name: Aisha Bekova
+Student name: Ayat
 Group (e.g. CS-101): CS-22
-Student added: Student{id=1, name='Aisha Bekova', group='CS-22'}
+Student added: Student{id=1, name='Ayat', group='CS-22'}
 
 Enter option: 2
 Course code (e.g. INF-101): INF-101
@@ -85,11 +85,11 @@ Enter option: 3
 Student ID: 1
 Course code: INF-101
 Score (0-100): 92
-Grade assigned: Grade{student=Aisha Bekova, course=INF-101, score=92}
+Grade assigned: Grade{student=Ayat, course=INF-101, score=92}
 
 Enter option: 4
 Student ID: 1
-GPA of Aisha Bekova: 92.00
+GPA of Ayat: 92.00
 ```
 
 ## Архитектура
@@ -99,5 +99,4 @@ GPA of Aisha Bekova: 92.00
 Для хранения используются ArrayList и HashMap. Оценки принимаются строго в диапазоне 0–100. Числовой ввод защищён обработкой NumberFormatException. При обращении к несуществующему студенту или курсу программа выводит сообщение об ошибке без аварийного завершения.
 
 ## Автор
-
-Выполнено в рамках учебного задания по курсу Java Core.
+Фархатұлы Аят
